@@ -1,0 +1,33 @@
+{
+  "name": "rpg-sem-g",
+  "module": "express",
+  "version": "1.0.0",
+  "description": "O site tem o propósito de oferecer uma imersão para os jogadores e um suporte organizacional para o mestre da campanha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TM4C8/rpg-sem-g.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TM4C8/rpg-sem-g/issues"
+  },
+  "homepage": "https://github.com/TM4C8/rpg-sem-g#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}
