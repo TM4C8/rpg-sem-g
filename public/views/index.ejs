@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <title>Login</title>
 </head>
 <body>
+    <form action="/login" method="post"></form>
+    <div class="formulario">
+        <div class="campos">
+            <input type="text" name="email" id="email" required >
+            <input type="text" name="senha" id="senha" required>
+        </div>
+        <button type="submit">Logar</button>
+    </div>
+     <p>Ainda não possuí conta? <a href="/cadastrar">Cadastre-se</a></p>
+     </form>
 </body>
 </html>

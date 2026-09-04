@@ -1,0 +1,1 @@
+//nome, NEX, resumo, Arco, personagens/players participantes
